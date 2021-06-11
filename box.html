@@ -1,0 +1,49 @@
+<html>
+ <head>
+  <meta charset="utf-8"
+  <title></title>
+  <style>
+    .ab{font-weight:bold;
+    }
+ #cd{
+   color:skyblue;
+ }
+  </style>
+  </head>
+  <body style="background-color:black;">
+<input type="button" value="다크" onclick="
+document.querySelector('body').style.backgroundColor = 'black';
+document.querySelector('body').style.color = 'white';
+">
+<input type="button" name="" value="화이트" onclick="
+document.querySelector('body').style.backgroundColor = 'white';
+document.querySelector('body').style.color = 'black';">
+
+<input id="다크_화이트" type="button"  value="다크" onclick="
+if(document.querySelector('#다크_화이트').value === '다크'){
+  document.querySelector('body').style.backgroundColor = 'black';
+document.querySelector('body').style.color = 'white';
+document.querySelector('#다크_화이트').value = '화이트';
+}
+else {document.querySelector('body').style.backgroundColor = 'white';
+document.querySelector('body').style.color = 'black';
+document.querySelector('#다크_화이트').value = '다크';}
+"
+
+
+
+
+
+
+
+<script>
+
+  </script>
+
+  </body>
+    </html>
+  <span class="ab">abcdefghijklmnopqrstuvwxyzz</span>
+
+<span id="cd">abcdefghijklmnopqrstuvwxyzz</span>
+<span class="ab">abcdefghijklmnopqrstuvwxyzz</span>
+  abcdefghijklmnopqrstuvwxyzzabcdefghijklmnopqrstuvwxyzzabcdefghijklmnopqrstuvwxyzzabcdefghijklmnopqrstuvwxyzz
